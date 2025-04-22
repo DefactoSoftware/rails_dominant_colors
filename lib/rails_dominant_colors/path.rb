@@ -18,7 +18,7 @@ module RailsDominantColors
 
     def file_is_image?(source)
       extension = File.extname(source)
-      extensions.values.include?(extension)
+      extensions.values.include?(extension.downcase)
     end
   end
 end
