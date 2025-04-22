@@ -64,7 +64,7 @@ module RailsDominantColors
     def extensions
       @extensions ||= {
         'image/png': '.png',
-        'image/jpeg': '.jpg',
+        'image/jpeg': '.jpeg',
         'image/jpg': '.jpg',
         'image/gif': '.gif',
         'image/bmp': '.bmp',
